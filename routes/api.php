@@ -18,9 +18,7 @@ use App\Http\Controllers\Api\FavouriteController;
 |
 */
 
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
-});
+
 Route::prefix('v1')->group(function (){
 Route::apiResource('movies', MovieController::class);
 Route::post('login', [AuthController::class, 'login']);
