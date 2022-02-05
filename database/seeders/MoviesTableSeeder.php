@@ -43,8 +43,8 @@ class MoviesTableSeeder extends Seeder
             ],
 
             [
-                'movie_name' => 'Into the Wild',
-                'director' => 'Sean Penn',
+                'movie_name' => 'Pele',
+                'director' => 'Jeff Zimbalist/Michael Zimbalist',
                 'created_at' => Carbon::now(),
             ],
 
