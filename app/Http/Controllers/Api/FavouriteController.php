@@ -58,7 +58,7 @@ class FavouriteController extends Controller
             //Adding to favourites list
             $favourite= Favourite::create(['user_id'=>auth()->id(),'movie_id'=>$request->movie_id]);
 
-            return $this->success('Added to favourites.',);
+            return $this->success('Added to favourites.');
 
     }
 
